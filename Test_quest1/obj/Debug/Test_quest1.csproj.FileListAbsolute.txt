@@ -1,0 +1,8 @@
+D:\repos\Test_quest1\Test_quest1\bin\Debug\Test_quest1.exe.config
+D:\repos\Test_quest1\Test_quest1\bin\Debug\Test_quest1.exe
+D:\repos\Test_quest1\Test_quest1\bin\Debug\Test_quest1.pdb
+D:\repos\Test_quest1\Test_quest1\obj\Debug\Test_quest1.csproj.AssemblyReference.cache
+D:\repos\Test_quest1\Test_quest1\obj\Debug\Test_quest1.csproj.SuggestedBindingRedirects.cache
+D:\repos\Test_quest1\Test_quest1\obj\Debug\Test_quest1.csproj.CoreCompileInputs.cache
+D:\repos\Test_quest1\Test_quest1\obj\Debug\Test_quest1.exe
+D:\repos\Test_quest1\Test_quest1\obj\Debug\Test_quest1.pdb
