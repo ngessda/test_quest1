@@ -1,4 +1,5 @@
 ﻿using System;
+using System.CodeDom;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,11 +9,13 @@ namespace Test_quest1
 {
     public class Pallet
     {
+        private const int palletsCount = 3;
         public int ID { get; set; }
         public int Width { get; set; }
         public int Height { get; set; }
         public int Depth { get; set; }
         public double Weight { get; set; }
+        public double Volume { get; set; }
         public DateTime ExpiryDate { get; set; }
         private List<Box> boxes = new List<Box>();
 
@@ -23,6 +26,12 @@ namespace Test_quest1
             Height = height;
             Depth = depth;
             Weight = weight;
+        }
+        public Pallet(DateTime expiryDate, int weight, int volume)
+        {
+            ExpiryDate = expiryDate;
+            Weight = weight;
+            Volume = volume;
         }
 
         public void AddBox(Box box)

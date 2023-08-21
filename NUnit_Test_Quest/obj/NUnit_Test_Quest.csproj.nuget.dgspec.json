@@ -1,0 +1,109 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\repos\\Test_quest1\\NUnit_Test_Quest\\NUnit_Test_Quest.csproj": {}
+  },
+  "projects": {
+    "D:\\repos\\Test_quest1\\NUnit_Test_Quest\\NUnit_Test_Quest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\repos\\Test_quest1\\NUnit_Test_Quest\\NUnit_Test_Quest.csproj",
+        "projectName": "NUnit_Test_Quest",
+        "projectPath": "D:\\repos\\Test_quest1\\NUnit_Test_Quest\\NUnit_Test_Quest.csproj",
+        "packagesPath": "C:\\Users\\micky\\.nuget\\packages\\",
+        "outputPath": "D:\\repos\\Test_quest1\\NUnit_Test_Quest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\micky\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\repos\\Test_quest1\\Test_quest1\\Test_quest1.csproj": {
+                "projectPath": "D:\\repos\\Test_quest1\\Test_quest1\\Test_quest1.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.6.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.4.2, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\repos\\Test_quest1\\Test_quest1\\Test_quest1.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\repos\\Test_quest1\\Test_quest1\\Test_quest1.csproj",
+        "projectName": "Test_quest1",
+        "projectPath": "D:\\repos\\Test_quest1\\Test_quest1\\Test_quest1.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}
